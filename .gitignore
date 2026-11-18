@@ -1,0 +1,24 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+target/
+.mvn/wrapper/dists/
+
+# Local secrets: keep .env out of the repository
+.env
+!.env.example
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+uploads/
+coverage/
